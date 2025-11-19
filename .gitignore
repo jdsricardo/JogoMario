@@ -1,0 +1,57 @@
+# .gitignore para Super Mario Runner
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Genomas salvos do NEAT
+*.pkl
+melhor_genoma.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Banco de dados
+*.db
+*.sqlite
+
+# Temporários
+*.tmp
+temp/

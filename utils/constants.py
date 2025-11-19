@@ -1,0 +1,72 @@
+"""
+Constantes e configurações do jogo Mario
+"""
+
+# Dimensões da tela
+LARGURA = 1000
+ALTURA = 600
+CHAO_Y = 480
+FPS = 60
+
+# Cores
+BRANCO = (255, 255, 255)
+PRETO = (0, 0, 0)
+VERMELHO = (255, 0, 0)
+VERDE = (0, 255, 0)
+AZUL = (0, 0, 255)
+AMARELO = (255, 255, 0)
+MARROM = (139, 69, 19)
+LARANJA = (255, 140, 0)
+CINZA = (128, 128, 128)
+VERDE_ESCURO = (34, 139, 34)
+CEU_AZUL = (135, 206, 235)
+
+# Cores do Mario
+MARIO_VERMELHO = (200, 0, 0)
+MARIO_AZUL = (0, 100, 200)
+MARIO_PELE = (255, 206, 180)
+MARIO_VERMELHO_ESCURO = (160, 0, 0)
+MARIO_AZUL_ESCURO = (0, 70, 160)
+MARIO_PELE_SOMBRA = (230, 180, 150)
+
+# Configurações de física
+GRAVIDADE = 0.8
+FORCA_PULO = -16
+VELOCIDADE_INICIAL = 6
+VELOCIDADE_MAXIMA = 14
+ACELERACAO = 0.002
+
+# Configurações de gameplay
+DISTANCIA_PARA_VENCER = 15000  # Distância em pixels para completar o nível
+PONTOS_POR_FRAME = 1
+PONTOS_INIMIGO = 100
+PONTOS_MOEDA = 50
+
+# Dimensões dos sprites
+MARIO_LARGURA = 48
+MARIO_ALTURA = 64
+MARIO_AGACHADO_ALTURA = 42
+MARIO_AGACHADO_OFFSET = 22
+
+CANO_LARGURA = 50
+CANO_ALTURA_MIN = 70
+CANO_ALTURA_MAX = 120
+
+GOOMBA_LARGURA = 30
+GOOMBA_ALTURA = 30
+
+TARTARUGA_LARGURA = 35
+TARTARUGA_ALTURA = 40
+
+BOMBA_LARGURA = 60
+BOMBA_ALTURA = 44
+
+# Configurações de spawn
+DISTANCIA_MIN_OBSTACULOS = 250
+DISTANCIA_MAX_OBSTACULOS = 450
+CHANCE_BOMBA = 0.3  # 30% de chance de spawnar bomba
+CHANCE_TARTARUGA = 0.4  # 40% de chance de spawnar tartaruga
+
+# Sensores e ações (usados pelo NEAT)
+SENSOR_COUNT = 6
+ACTION_COUNT = 2  # [pular, abaixar]
